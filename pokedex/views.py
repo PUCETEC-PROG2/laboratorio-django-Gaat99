@@ -73,7 +73,7 @@ def add_trainer(request):
     else:
         form = TrainerForm()
 
-    return render(request, 'trainer_form.html', {'form': form})
+    return render(request, 'trainer_ana.html', {'form': form})
 
 
 
